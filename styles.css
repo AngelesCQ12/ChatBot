@@ -1,0 +1,90 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cceff1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor principal */
+.chat-container {
+    width: 500px;
+    background: #5bbac0;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #072d2f;
+    margin-bottom: 30px;
+}
+
+/* Caja de chat */
+#chat-box {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #03282b;
+    padding: 30px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* Contenedor de opciones */
+#options-box {
+    margin-bottom: 10px;
+}
+
+/* Input y botón */
+input,
+button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Botón "Responder"*/
+button {
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+/* Botón deshabilitado */
+button:disabled {
+    background-color: #b0b0b0;
+    cursor: not-allowed;
+}
+
+/* Hover en botón */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Botones de opción */
+.option-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover en botones de opción */
+.option-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
